@@ -7,9 +7,13 @@
 */
 
 #ifdef  KISS_FFT
-#include <kiss_fft.h>
+/* #include <kiss_fft.h> */
+#include "lib/kiss-fft/kiss_fft.h"
 #else
-#include <fftw3.h>
+#include "lib/kiss-fft/kiss_fft.h"
+#include "lib/kiss-fft/kiss_fftr.h"
+#include "lib/kiss-fft/_kiss_fft_guts.h"
+#include "lib/fftw-3.3.8/api/fftw3.h"
 #endif
 #include <float.h>
 #include <math.h>

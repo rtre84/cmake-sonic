@@ -1,3 +1,12 @@
+Originally Forked from: https://github.com/waywardgeek/sonic
+Dependencies under "lib/" from:
+fftw-3.3.8 : http://www.fftw.org/
+kiss-fft : https://github.com/berndporr/kiss-fft
+
+Note: Cmake was added and used to build the entire repo. That really is the only valid code difference between this
+forked repo and the original.
+-----------------------------
+
 Sonic is a simple algorithm for speeding up or slowing down speech.  However,
 it's optimized for speed ups of over 2X, unlike previous algorithms for changing
 speech rate.  The Sonic library is a very simple ANSI C library that is designed

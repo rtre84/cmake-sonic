@@ -1,0 +1,3 @@
+/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-default/CMakeFiles/rebuild_cache.dir
+/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-default/CMakeFiles/edit_cache.dir
+/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-default/CMakeFiles/sonic.dir

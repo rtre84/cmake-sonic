@@ -63,6 +63,9 @@ extern "C" {
 /* These are used to down-sample some inputs to improve speed */
 #define SONIC_AMDF_FREQ 4000
 
+#define SONIC_SPECTROGRAM
+#define KISS_FFT
+
 struct sonicStreamStruct;
 typedef struct sonicStreamStruct* sonicStream;
 

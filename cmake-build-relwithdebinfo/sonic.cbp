@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sonic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sonic">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/sonic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/."/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 sonic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sonic/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/sonic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/."/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 sonic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/cmake-build-relwithdebinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/COPYING">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/Main.java">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/Makefile">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/README">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/Sonic.java">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/changelog">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/changelog.vinux">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/compat">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/control">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/copyright">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/libsonic-dev.install">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/libsonic0.install">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/libsonic0.symbols">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/rules">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/sonic.install">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/sonic.manpages">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/source/format">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/debian/watch">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/doc/index.md">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/doc/post">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/doc/sonic.odt">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/fftw-3.3.8">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/fftw-3.3.8/.libs">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/fftw-3.3.8/api">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/fftw-3.3.8/api/.libs">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft/_kiss_fft_guts.h">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft/kiss_fft.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft/kiss_fft.h">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft/kiss_fftr.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/lib/kiss-fft/kiss_fftr.h">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/main.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/mkorig">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/README">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/espeak_s450.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/espeak_sonic.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/sonic.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/soundstretch.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/stereo_test.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/talking.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/talking_2x.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/test1.txt">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/samples/twosineperiods.wav">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/sonic.1">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/sonic.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/sonic.h">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/spectrogram.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/wave.c">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/wave.h">
+			<Option target="sonic"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/sonic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

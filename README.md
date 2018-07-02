@@ -1,14 +1,13 @@
-## Originally Forked from: https://github.com/waywardgeek/sonic
+Originally Forked from: https://github.com/waywardgeek/sonic
 
-### Dependencies under "lib/" from:
+Dependencies under "lib/" from:
 fftw-3.3.8 : http://www.fftw.org/
 kiss-fft : https://github.com/berndporr/kiss-fft
 
-### Muted guitar sample added under "samples/"
+Muted guitar sample added under "samples/"
 Korg-M3R-Rock-Mutes-C3.wav : https://freewavesamples.com/korg-m3r-rock-mutes-c3
 
 Note: Cmake was added and used to build the entire repo. That really is the only valid code difference between this forked repo and the original.
----
 
 # Sonic
 
@@ -36,15 +35,15 @@ I sped up a 751958176 byte wav file with sonic (a 9 hour, 28 minute mono audio
 file encoded at 16-bit 11.KHz), but with the output writing disabled.  The
 reported time, running Ubuntu 11.04 on my HP Pavilion dm4 laptop was:
 
-real    0m50.839s
-user    0m47.370s
-sys     0m0.620s
+| real | 0m50.839s |
+| user | 0m47.370s |
+| sys  | 0m0.620s  |
 
 The Java version is not much slower.  It reported:
 
-real    0m52.043s
-user    0m51.190s
-sys     0m0.310s
+| real  |  0m52.043s |
+| user  |  0m51.190s |
+| sys   |  0m0.310s  |
 
 Update, May 7, 2017
 -------------------

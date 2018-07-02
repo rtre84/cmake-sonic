@@ -1,11 +1,13 @@
 Originally Forked from: https://github.com/waywardgeek/sonic
 
-Dependencies under "lib/" from:
-fftw-3.3.8 : http://www.fftw.org/
-kiss-fft : https://github.com/berndporr/kiss-fft
+Dependencies under "lib/" | Link
+------------ | ----------------- 
+fftw-3.3.8 | http://www.fftw.org/
+kiss-fft | https://github.com/berndporr/kiss-fft
 
-Muted guitar sample added under "samples/"
-Korg-M3R-Rock-Mutes-C3.wav : https://freewavesamples.com/korg-m3r-rock-mutes-c3
+Muted guitar sample added under "samples/" | Link
+------------ | ----------------- 
+Korg-M3R-Rock-Mutes-C3.wav | https://freewavesamples.com/korg-m3r-rock-mutes-c3
 
 Note: Cmake was added and used to build the entire repo. That really is the only valid code difference between this forked repo and the original.
 

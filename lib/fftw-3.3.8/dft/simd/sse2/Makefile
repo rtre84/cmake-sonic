@@ -195,16 +195,16 @@ am__objects_18 = $(am__objects_1) $(am__objects_2) $(am__objects_3) \
 	$(am__objects_13) $(am__objects_14) $(am__objects_15) \
 	$(am__objects_16) $(am__objects_17)
 am__objects_19 = $(am__objects_18) genus.lo codlist.lo
-#am__objects_20 = $(am__objects_19)
-#am_libdft_sse2_codelets_la_OBJECTS =  \
-#	$(am__objects_20)
+am__objects_20 = $(am__objects_19)
+am_libdft_sse2_codelets_la_OBJECTS =  \
+	$(am__objects_20)
 libdft_sse2_codelets_la_OBJECTS =  \
 	$(am_libdft_sse2_codelets_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-#am_libdft_sse2_codelets_la_rpath =
+am_libdft_sse2_codelets_la_rpath =
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -350,8 +350,8 @@ PACKAGE_URL =
 PACKAGE_VERSION = 3.3.8
 PATH_SEPARATOR = :
 POW_LIB = 
-PRECISION = d
-PREC_SUFFIX = 
+PRECISION = s
+PREC_SUFFIX = f
 PTHREAD_CC = 
 PTHREAD_CFLAGS = 
 PTHREAD_LIBS = 
@@ -505,9 +505,9 @@ $(T2F) $(T3F) $(T1BU) $(T1B) $(T2B) $(T3B) $(T1S) $(T2S) $(Q1F) $(Q1B)
 
 AM_CPPFLAGS = -I $(top_srcdir)
 EXTRA_DIST = $(SIMD_CODELETS) genus.c codlist.c
-#BUILT_SOURCES = $(EXTRA_DIST)
-#noinst_LTLIBRARIES = libdft_sse2_codelets.la
-#libdft_sse2_codelets_la_SOURCES = $(BUILT_SOURCES)
+BUILT_SOURCES = $(EXTRA_DIST)
+noinst_LTLIBRARIES = libdft_sse2_codelets.la
+libdft_sse2_codelets_la_SOURCES = $(BUILT_SOURCES)
 all: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) all-am
 

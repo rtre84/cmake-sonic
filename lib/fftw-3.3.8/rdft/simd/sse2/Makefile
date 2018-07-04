@@ -136,16 +136,16 @@ am__objects_2 = hc2cbdftv_2.lo hc2cbdftv_4.lo hc2cbdftv_6.lo \
 	hc2cbdftv_32.lo hc2cbdftv_20.lo
 am__objects_3 = $(am__objects_1) $(am__objects_2)
 am__objects_4 = $(am__objects_3) genus.lo codlist.lo
-#am__objects_5 = $(am__objects_4)
-#am_librdft_sse2_codelets_la_OBJECTS =  \
-#	$(am__objects_5)
+am__objects_5 = $(am__objects_4)
+am_librdft_sse2_codelets_la_OBJECTS =  \
+	$(am__objects_5)
 librdft_sse2_codelets_la_OBJECTS =  \
 	$(am_librdft_sse2_codelets_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-#am_librdft_sse2_codelets_la_rpath =
+am_librdft_sse2_codelets_la_rpath =
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -291,8 +291,8 @@ PACKAGE_URL =
 PACKAGE_VERSION = 3.3.8
 PATH_SEPARATOR = :
 POW_LIB = 
-PRECISION = d
-PREC_SUFFIX = 
+PRECISION = s
+PREC_SUFFIX = f
 PTHREAD_CC = 
 PTHREAD_CFLAGS = 
 PTHREAD_LIBS = 
@@ -377,9 +377,9 @@ hc2cbdftv_20.c
 SIMD_CODELETS = $(HC2CFDFTV) $(HC2CBDFTV)
 AM_CPPFLAGS = -I $(top_srcdir)
 EXTRA_DIST = $(SIMD_CODELETS) genus.c codlist.c
-#BUILT_SOURCES = $(EXTRA_DIST)
-#noinst_LTLIBRARIES = librdft_sse2_codelets.la
-#librdft_sse2_codelets_la_SOURCES = $(BUILT_SOURCES)
+BUILT_SOURCES = $(EXTRA_DIST)
+noinst_LTLIBRARIES = librdft_sse2_codelets.la
+librdft_sse2_codelets_la_SOURCES = $(BUILT_SOURCES)
 all: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) all-am
 
